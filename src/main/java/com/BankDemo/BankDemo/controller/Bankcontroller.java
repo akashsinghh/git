@@ -45,6 +45,7 @@ public class Bankcontroller {
     public String isValidPanCardNo(String PAN_Number){
         bankservice.isValidPanCardNo(PAN_Number);
         return "Successfully checked";
+
     }
 //    @PutMapping("/Updatecur")
 //    public String updateAccount(@RequestParam String current_address,@RequestParam int index){
